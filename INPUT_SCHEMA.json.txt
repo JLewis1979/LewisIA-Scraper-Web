@@ -1,0 +1,15 @@
+{
+  "title": "Input para Mi Custom Scraper",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "startUrl": {
+      "title": "Start URL",
+      "type": "string",
+      "description": "URL de la página de listado de artículos para comenzar a scrapear.",
+      "editor": "textfield",
+      "prefill": "https://news.ycombinator.com/"
+    }
+  },
+  "required": ["startUrl"]
+}
