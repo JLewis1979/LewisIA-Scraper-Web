@@ -46,7 +46,7 @@ Apify.main(async () => {
                 log.info('   Es una página de listado. Buscando enlaces a artículos...');
 
                 // ***** ¡¡¡DEBES REEMPLAZAR ESTE SELECTOR CSS!!! *****
-                const ARTICLE_LINK_SELECTOR_ON_LIST_PAGE = 'div.post-item > h3 > a';
+                const ARTICLE_LINK_SELECTOR_ON_LIST_PAGE = 'a.mnt¡Excelente! Vamosl-card-list-items[href^="/"]';
 
                 const articleUrls = await page.evaluate((selector) => {
                     const links = [];
